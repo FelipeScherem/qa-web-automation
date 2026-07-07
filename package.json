@@ -1,0 +1,28 @@
+{
+  "name": "qa-web-automation",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes web com Cypress e Gherkin/BDD, cobrindo fluxo completo de e-commerce como login, produtos, carrinho e checkout. Inclui Page Objects, dados de teste, testes funcionais, regressivos e execução via CI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeScherem/qa-web-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FelipeScherem/qa-web-automation/issues"
+  },
+  "homepage": "https://github.com/FelipeScherem/qa-web-automation#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^26.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "@faker-js/faker": "^10.5.0",
+    "cypress": "^15.18.1",
+    "esbuild": "^0.28.1"
+  }
+}
